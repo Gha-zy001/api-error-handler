@@ -4,6 +4,11 @@ A Laravel package that provides centralized JSON error handling for API applicat
 
 Instead of repeating exception handling logic in every project, this package automatically converts Laravel exceptions into consistent JSON responses and optionally logs them.
 
+**Compatibility**
+
+- This package currently supports **Laravel 10 and earlier**.
+- Support for **Laravel 11+** will be available in a future major release.
+
 ## Features
 
 - Centralized API exception handling
