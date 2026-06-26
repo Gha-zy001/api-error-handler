@@ -1,0 +1,31 @@
+{
+    "name": "devgh/api-error-handler",
+    "description": "Laravel API Error Handler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devgh\\ApiErrorHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gha-zy001",
+            "email": "axxgha.zy01@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^13.0",
+        "illuminate/http": "^13.0",
+        "illuminate/log": "^13.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devgh\\ApiErrorHandler\\Providers\\ApiErrorHandlerServiceProvider"
+            ]
+        }
+    }
+}
