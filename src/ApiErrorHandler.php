@@ -44,9 +44,6 @@ class ApiErrorHandler
     };
   }
 
-  // -------------------------------------------------------------------------
-  //  Exception-specific handlers
-  // -------------------------------------------------------------------------
 
   protected function validationException(ValidationException $e): JsonResponse
   {
@@ -137,9 +134,6 @@ class ApiErrorHandler
     );
   }
 
-  // -------------------------------------------------------------------------
-  //  Helpers
-  // -------------------------------------------------------------------------
 
   protected function respond(
     string $message,
