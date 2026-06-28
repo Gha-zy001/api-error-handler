@@ -3,6 +3,7 @@
 namespace Devgh\ApiErrorHandler\Providers;
 
 use Devgh\ApiErrorHandler\ApiErrorHandler;
+use Devgh\ApiErrorHandler\Response\ApiResponse;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
 use Illuminate\Support\ServiceProvider;
@@ -20,6 +21,10 @@ class ApiErrorHandlerServiceProvider extends ServiceProvider
       return new ApiErrorHandler(
         config: $app['config']->get('error-handler', [])
       );
+    });
+
+    $this->app->singleton('api-response', function () {
+      return new ApiResponse;
     });
   }
 

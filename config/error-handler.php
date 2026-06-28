@@ -39,18 +39,4 @@ return [
     \Symfony\Component\HttpKernel\Exception\NotFoundHttpException::class,
     \Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException::class,
   ],
-
-  /*
-  |--------------------------------------------------------------------------
-  | Response Keys
-  |--------------------------------------------------------------------------
-  | Customize the JSON response keys.
-  */
-  'response_keys' => [
-    'success' => 'success',
-    'message' => 'message',
-    'errors' => 'errors',
-    'code' => 'code',
-    'debug' => 'debug',
-  ],
 ];
