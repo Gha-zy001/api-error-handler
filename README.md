@@ -6,8 +6,7 @@ Instead of repeating exception handling logic in every project, this package aut
 
 **Compatibility**
 
-- This package currently supports **Laravel 10 and earlier**.
-- Support for **Laravel 11+** will be available in a future major release.
+- This package supports **Laravel 9 and above**.
 
 ## Features
 
