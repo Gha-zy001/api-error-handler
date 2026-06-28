@@ -1,32 +1,32 @@
 {
-    "name": "devgh/api-error-handler",
-    "description": "Laravel API Error Handler",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Devgh\\ApiErrorHandler\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Gha-zy001",
-            "email": "axxgha.zy01@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "php": "^8.1",
-        "illuminate/support": "^9.0|^10.0",
-        "illuminate/http": "^9.0|^10.0",
-        "illuminate/contracts": "^9.0|^10.0",
-        "illuminate/log": "^9.0|^10.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Devgh\\ApiErrorHandler\\Providers\\ApiErrorHandlerServiceProvider"
-            ]
-        }
+  "name": "devgh/api-error-handler",
+  "description": "Laravel API Error Handler",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Devgh\\ApiErrorHandler\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Gha-zy001",
+      "email": "axxgha.zy01@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0|^13.0",
+    "illuminate/http": "^9.0|^10.0|^11.0|^12.0|^13.0",
+    "illuminate/contracts": "^9.0|^10.0|^11.0|^12.0|^13.0",
+    "illuminate/log": "^9.0|^10.0|^11.0|^12.0|^13.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Devgh\\ApiErrorHandler\\Providers\\ApiErrorHandlerServiceProvider"
+      ]
+    }
+  }
 }
